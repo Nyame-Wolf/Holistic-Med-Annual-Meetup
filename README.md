@@ -3,11 +3,11 @@
 # Frontend-Global-Meetup
 
 > Project Description.
-
+> **This is the First Module capstone project.**
 
 ## Built With
 
-- Major languages
+- Major languages : HTML, CSS, Javascript.
 - Frameworks
 - Technologies used
 
@@ -15,12 +15,10 @@
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -36,8 +34,6 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
-
-
 ## Authors
 
 👤 **Author1**
@@ -45,8 +41,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Nyame-Wolf/)
 - Twitter: [@twitterhandle](https://twitter.com/Mumenyam)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/)
-
-
 
 ## 🤝 Contributing
 
