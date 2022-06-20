@@ -54,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspired by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design [2015 Creative Commons Korea](http://creativecommons.org/licences/by/2.0/kr)
 
 ## 📝 License
 
