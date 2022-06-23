@@ -1,15 +1,12 @@
 const openToggle = document.getElementById('open-toggle');
-const logo = document.querySelector('.visible');
+const logo = document.querySelector('.logo-img');
 const navigation = document.querySelector('.nav-navbar');
+const closeToggele = document.querySelector('.close-toggle')
 
 openToggle.addEventListener('click', () => {
     navigation.classList.toggle('open');
-    openToggle.style.display = 'none';
-    logo.style.display = 'none';
 });
 navigation.addEventListener('click', () => {
-    openToggle.style.display = 'block';
-    logo.style.display = 'block';
     navigation.classList.toggle('open');
 });
 
