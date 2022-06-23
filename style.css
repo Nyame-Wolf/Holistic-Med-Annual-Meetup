@@ -34,19 +34,25 @@ header {
   margin-top: 1em;
   gap: 1em;
 }
-.nav-navbar.open {
-  width: 100%;
-  position: fixed;
-  height: 100vh;
-  bottom: 0;
-  overflow: hidden;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #fff;
-  flex-wrap: wrap;
+@media (max-width: 768px) {
+  .nav-navbar.open {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
 }
+
 .abt {
   background-color: #ec5242;
   color: #d3d3d3;
@@ -218,22 +224,25 @@ small {
   color: lightgray;
 }
 .partner-items {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-.gates {
-  width: 50%;
+.partner-container {
+  width: 90%;
+  display: flex;
+  gap: 1em;
+  padding-bottom: 1em;
 }
+
 .bloomberg {
-  width: 30%;
+  background-color: #f0f8ff;
 }
 .open-s {
-  width: 50%;
+  width: 100%;
 }
-.who {
-  width: 50%;
-}
-*/ .partner-item {
+.partner-item {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -246,7 +255,25 @@ small {
 
 footer {
   padding-left: 1em;
+  text-align: center;
 }
+.footer {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
+.content-abt {
+  text-align: center;
+  color: #272a31;
+}
+.aboup1 {
+  background: #fff;
+  width: 90%;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin-left: 4em;
+}
+
 @media (min-width: 768px) {
   .open-toggle {
     display: none;
@@ -276,6 +303,10 @@ footer {
     margin: 0;
     margin-right: 8em;
     gap: 5em;
+  }
+
+  .close-toggle {
+    display: none;
   }
 
   .fa-brands {
