@@ -19,10 +19,6 @@
   </head>
   <body>
     <header>
-      <div class="open-toggle" id="open-toggle">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-
       <nav class="first-nav">
         <ul class="top-bar">
           <li>
@@ -45,37 +41,41 @@
           </li>
         </ul>
       </nav>
-      <nav class="nav-navbar">
-        <ul class="logo">
+<div class="second-nav"></div>
+
+  <nav class="second-nav">
+        <div class="sort">
+      <div class="open-toggle" id="open-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+           <img class="logo-img" src="assets/logo-final-use.png" alt=""> 
+          </div>
+        <ul class=" nav-navbar">
           <li>
-            <a href="#" target="_blank" rel="noopener noreferrer">
-               <img class="logo-img" src="assets/logo.png" alt="">
-            </a>
-          </li>
-          <li>
-            <a href="#about" target="_blank" rel="noopener noreferrer">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#program" target="_blank" rel="noopener noreferrer">
+            <a href="#program">
               Program
             </a>
           </li>
           <li>
-            <a href="#join" target="_blank" rel="noopener noreferrer"> Join </a>
+            <a href="#join"> Join </a>
           </li>
           <li>
-            <a href="#sponsor" target="_blank" rel="noopener noreferrer">
+            <a href="#sponsor" >
               Sponsor
             </a>
           </li>
           <li>
-            <a href="#newst" target="_blank" rel="noopener noreferrer">
+            <a href="#newst">
               News
             </a>
           </li>
-      </nav>
+          <li>
+            <a class="abt" href="about.html" target="_blank" rel="noopener noreferrer">
+              About
+            </a>
+          </li>
+        </nav>
+      
     </header>
     <main>
       <section class="landing-page bgimage">
@@ -92,7 +92,7 @@
           <p>@Kenya International Convention Centre (KICC)</p>
         </div>
       </section>
-      <section class="progam">
+      <section class="progam" id="program">
           <h2 class="program-title">Main Program</h2>
           <hr class="hr">
           <div class="program-cards">
@@ -133,7 +133,7 @@
               </p>
             </div>
           
-            <button class="join-button">
+            <button class="join-button" id="join">
               Join The movement and enjoy quality life.
             </button>
           </div>
@@ -145,24 +145,16 @@
         <hr class="hr">
         <div class="speakers"></div>
       </section>
-      <section class="partners">
+      <section class="partners" id="sponsor">
         <h2 class="partners-title">Partners</h2>
         <hr class="hr">
         <div class="partner-items">
         <div>
           <a class="partner-link"
-            href="https://www.gatesfoundation.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><img class="gates" src="assets/BillMelindaGatesFoundation.png" alt=""></a
-          >
-        </div>
-        <div>
-          <a class="partner-link"
             href="https://www.opensocietyfoundations.org/"
             target="_blank"
             rel="noopener noreferrer"
-            ><img class="open-s" src="assets/kisspng-open-society-foundations-civil-society-5b124d040522d5.png" alt=""></a
+            ><img class="open-s" src="assets/opensocietyfoundations.png" alt=""></a
           >
         </div>
         <div>
@@ -170,21 +162,36 @@
             href="https://www.bloomberg.org/public-health/"
             target="_blank"
             rel="noopener noreferrer"
-            ><img class="bloomberg" src="assets/bloomberg_philanthropies.png" alt=""></a
+            ><img class="bloomberg" src="assets/bloomberg_philanthropiesp.png" alt=""></a
           >
         </div>
-        <div>
+             <div>
           <a class="partner-link"
             href="https://www.who.int/"
             target="_blank"
             rel="noopener noreferrer"
-            ><img class="who" src="assets/World_Health_Organization_(4).png" alt=""></a>
+            ><img class="who" src="assets/World_Health_Organization_.png" alt=""></a>
+        </div>
+        <div>
+          <a class="partner-link"
+            href="https://www.gatesfoundation.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img class="gates" src="assets/BillMelindaGatesFoundationpi.png" alt=""></a
+          >
         </div>
         </div>
       </section>
       <footer>
       <div><span>&copy;</span> 2022 Holistic Health annual Conference</div>
-      
+      <div>All rights reserved.</div>
+      <div class="contacts">
+        <div class="organizer">
+             <p>Maribel Pauls</p>
+             maribelpaul@gmail.com
+        </div>
+      </div>
+
       </footer>
     </main>
     <script src="script.js"></script>

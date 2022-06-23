@@ -17,11 +17,46 @@ header {
   font-size: 2rem;
   padding: 1em;
 }
+.sort {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-img {
+  width: 20%;
+  padding-top: 0.2em;
+}
+
 .first-nav {
   display: none;
 }
 .nav-navbar {
   display: none;
+  margin-top: 1em;
+  gap: 1em;
+}
+.nav-navbar.open {
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+.abt {
+  background-color: #ec5242;
+  color: #d3d3d3;
+  padding: 0.5em;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: larger;
 }
 a {
   text-decoration: none;
@@ -169,33 +204,36 @@ small {
 .partners {
   background-color: #3e3e3e;
   display: flex;
-  height: 30em;
   flex-direction: column;
   align-items: center;
 }
+.partners hr {
+  margin-bottom: 2em;
+}
 .partners-title {
   color: lightgrey;
+  margin: 0;
 }
 .partner-link {
   color: lightgray;
 }
 .partner-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 .gates {
-  width: 40%;
+  width: 50%;
 }
 .bloomberg {
-  width: 40%;
+  width: 30%;
 }
 .open-s {
-  width: 40%;
+  width: 50%;
 }
 .who {
-  width: 40%;
+  width: 50%;
 }
-.partner-item {
+*/ .partner-item {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -204,6 +242,10 @@ small {
 }
 #who-logo {
   width: 15%;
+}
+
+footer {
+  padding-left: 1em;
 }
 @media (min-width: 768px) {
   .open-toggle {
@@ -222,29 +264,32 @@ small {
     margin-right: 8em;
     margin-top: 0;
   }
-  .nav-navbar {
-    display: block;
-  }
-
-  .fa-brands {
-    color: #fff;
-    font-size: 1.2rem;
-  }
-
-  .logo-img {
-    width: 10%;
-  }
-  .fa-thin {
-    font-size: 3.5rem;
-  }
-  .logo {
+  .second-nav {
     display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-navbar {
+    display: flex;
+    flex-direction: row;
     justify-content: end;
     margin: 0;
     margin-right: 8em;
     gap: 5em;
   }
 
+  .fa-brands {
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  .fa-thin {
+    font-size: 3.5rem;
+  }
+  .logo {
+  }
+  .logo-img {
+    width: 50%;
+  }
   .content {
     display: flex;
     flex-direction: column;

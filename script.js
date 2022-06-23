@@ -1,3 +1,18 @@
+const openToggle = document.getElementById('open-toggle');
+const logo = document.querySelector('.visible');
+const navigation = document.querySelector('.nav-navbar');
+
+openToggle.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    openToggle.style.display = 'none';
+    logo.style.display = 'none';
+});
+navigation.addEventListener('click', () => {
+    openToggle.style.display = 'block';
+    logo.style.display = 'block';
+    navigation.classList.toggle('open');
+});
+
 const speakers = [
     {
         displayPic: {
