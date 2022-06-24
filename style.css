@@ -59,6 +59,7 @@ header {
     background-color: #fff;
     flex-wrap: wrap;
   }
+
   .sort {
     display: flex;
     justify-content: space-between;
