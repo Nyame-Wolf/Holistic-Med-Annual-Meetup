@@ -12,7 +12,7 @@ navigation.addEventListener('click', () => {
 const speakers = [
   {
     displayPic: {
-      src: 'https://randomuser.me/api/portraits/men/83.jpg',
+      src: 'https://summit.cckorea.org/images/base/speaker_01.png',
       alt: 'Damarco passport photo',
     },
     name: 'Damarco Hunter',
@@ -22,7 +22,7 @@ const speakers = [
   },
   {
     displayPic: {
-      src: 'https://randomuser.me/api/portraits/women/90.jpg',
+      src: 'https://summit.cckorea.org/images/base/speaker_03.png',
       alt: 'Duan Ju passport photo',
     },
     name: 'Duan Ju',
@@ -33,7 +33,7 @@ const speakers = [
   },
   {
     displayPic: {
-      src: 'https://randomuser.me/api/portraits/men/34.jpg',
+      src: 'https://summit.cckorea.org/images/base/speaker_02.png',
       alt: 'Michel Marques passport photo',
     },
     name: 'Michel Marques Passos',
@@ -44,7 +44,7 @@ const speakers = [
   },
   {
     displayPic: {
-      src: 'https://randomuser.me/api/portraits/men/11.jpg',
+      src: 'https://summit.cckorea.org/images/base/speaker_04.png',
       alt: 'Ellis passport photo',
     },
     name: 'Aaron Ellis',
@@ -54,7 +54,7 @@ const speakers = [
   },
   {
     displayPic: {
-      src: 'https://randomuser.me/api/portraits/men/78.jpg',
+      src: 'https://summit.cckorea.org/images/base/speaker_06.png',
       alt: 'Ernest Moss',
     },
     name: 'Ernest Moss',
@@ -65,7 +65,7 @@ const speakers = [
   },
   {
     displayPic: {
-      src: 'https://randomuser.me/api/portraits/women/3.jpg',
+      src: 'https://summit.cckorea.org/images/base/speaker_05.png',
       alt: 'Abigail Weaver',
     },
     name: 'Abigail Weaver',
