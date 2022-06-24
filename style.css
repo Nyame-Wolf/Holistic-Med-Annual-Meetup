@@ -36,6 +36,7 @@ header {
 .logo-img {
   width: 50%;
   padding-top: 0.2em;
+  padding-left: 14em;
 }
 
 .first-nav {
@@ -427,6 +428,7 @@ footer {
 
   .logo-img {
     width: 50%;
+    padding-left: 0;
   }
 
   .content {
