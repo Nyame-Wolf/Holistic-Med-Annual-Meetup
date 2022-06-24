@@ -269,10 +269,20 @@ small {
 }
 
 .partner-container {
-  width: 90%;
   display: flex;
-  gap: 1em;
-  padding-bottom: 1em;
+  color: #d3d3d3;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner-t {
+  padding: 1em;
+}
+
+.pitem1 {
+  font-family: "Cocogoose", sans-serif;
 }
 
 .bloomberg {
