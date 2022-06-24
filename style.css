@@ -402,7 +402,10 @@ footer {
   }
 
   .sort {
-    justify-self: flex-start;
+    position: absolute;
+    float: left;
+    left: 0;
+    padding-left: 4.5em;
   }
 
   .nav-navbar {
