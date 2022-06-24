@@ -27,16 +27,9 @@ header {
   align-self: center;
 }
 
-.sort {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 30em;
-}
-
 .logo-img {
-  width: 50%;
+  width: 100%;
   padding-top: 0.2em;
-  padding-left: 14em;
 }
 
 .first-nav {
@@ -66,6 +59,11 @@ header {
     background-color: #fff;
     flex-wrap: wrap;
   }
+  .sort {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+  }
 }
 
 .abt {
@@ -75,10 +73,7 @@ header {
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  font-size: larger;
+  padding: 1em;
 }
 
 a {
@@ -353,6 +348,7 @@ footer {
 
 .summits {
   display: flex;
+  justify-content: center;
   width: 80%;
   gap: 1em;
   padding-bottom: 1em;
@@ -403,6 +399,10 @@ footer {
   .second-nav {
     display: flex;
     justify-content: flex-end;
+  }
+
+  .sort {
+    justify-self: flex-start;
   }
 
   .nav-navbar {
