@@ -311,8 +311,9 @@ footer {
   text-align: left;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0;
+  gap: 1em;
 }
 
 .footer {
@@ -514,10 +515,6 @@ footer {
     width: 50%;
   }
 
-  footer {
-    justify-content: flex-start;
-  }
-
   .fot-img {
     width: 9%;
   }
@@ -527,7 +524,6 @@ footer {
   }
 
   .fot1 {
-    margin-left: 8em;
     width: 20%;
   }
 }
