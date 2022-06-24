@@ -30,6 +30,7 @@ header {
 .sort {
   display: flex;
   justify-content: space-between;
+  padding-right: 30em;
 }
 
 .logo-img {
@@ -349,12 +350,15 @@ footer {
   width: 40%;
   height: 50%;
 }
+
 .fot-img {
   width: 20%;
 }
+
 .fot-content {
   margin: 0;
 }
+
 .fot1 {
   width: 20%;
 }
@@ -497,6 +501,7 @@ footer {
     text-align: left;
     width: 50%;
   }
+
   footer {
     justify-content: flex-start;
   }
@@ -504,9 +509,11 @@ footer {
   .fot-img {
     width: 9%;
   }
+
   .fot-content {
     margin: 0;
   }
+
   .fot1 {
     margin-left: 8em;
     width: 20%;
