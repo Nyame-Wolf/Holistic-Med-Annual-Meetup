@@ -94,13 +94,6 @@ function createp(para) {
   return p;
 }
 
-// function createButton(cbutton) {
-//     const button = document.createElement('button');
-//     button.classList.add('button-orange', 'is-link', 'grid-buttons');
-//     button.textContent = cbutton;
-//     return button;
-// }
-
 function createArticle(articleContent) {
   const article = document.createElement('article');
   article.classList.add('speaker');
